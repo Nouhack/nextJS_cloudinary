@@ -1,5 +1,5 @@
 ## About project
-next js cloudinary is a [Next.js](https://nextjs.org/) app that uses [cloudinary](https://cloudinary.com/) as third party persistent file storage service and store images data in a database through Prisma ORM and [NextAuth}(https://next-auth.js.org/getting-started/example) for jwt authentication and [chakra ui](https://chakra-ui.com/docs/getting-started) for UI.
+next js cloudinary is a [Next.js](https://nextjs.org/) app that uses [cloudinary](https://cloudinary.com/) as third party persistent file storage service and store images data in a database through Prisma ORM and [NextAuth](https://next-auth.js.org/getting-started/example) for jwt authentication and [chakra ui](https://chakra-ui.com/docs/getting-started) for UI.
 
 
 ## ScreenShots
