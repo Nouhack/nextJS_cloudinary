@@ -1,14 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About project
+next js cloudinary is a [Next.js](https://nextjs.org/) app that uses [cloudinary](https://cloudinary.com/) as third party persistent file storage service and store images data in a database through Prisma ORM and [NextAuth}(https://next-auth.js.org/getting-started/example) for jwt authentication and [chakra ui](https://chakra-ui.com/docs/getting-started) for UI.
+
+
+## ScreenShots
+
+- login page:
+
+![](screenshots/login.png)
+
+- sign up page:
+
+![](screenshots/signup.png)
+
+- authentified user page:
+
+![](screenshots/authentified.png)
+
+- uploaded images to cloudinary cloud:
+
+![](screenshots/cloudinaryimages.png)
+
+- save image uploaded data in a database:
+
+![](screenshots/imagetable.png)
+
+- save users credentials in a database:
+
+![](screenshots/userstable.png)
 
 ## Getting Started
 
-First, run the development server:
+First, run 
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm install # to install all dependencies including nextAuth
 ```
+
+rename ``` .env.local.examle ``` to ``` .env.local ``` and add your keys
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -24,6 +52,9 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Chakra-ui](https://chakra-ui.com/docs/getting-started) - learn about Chakra-ui
+- [Cloudinary](https://cloudinary.com/documentation) learn about cloudinary
+- [Prisma ORM](https://www.prisma.io/docs/getting-started/quickstart-typescript) learn about Prisma ORM
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
